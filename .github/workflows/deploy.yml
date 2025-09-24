@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 env:
-  AWS_REGION: us-east-1
-  ECR_REPOSITORY: my-ecr-repo
+  AWS_REGION: eu-north-1
+  ECR_REPOSITORY: my-ecr-app
   ECS_CLUSTER: my-ecs-cluster
   ECS_SERVICE: my-ecs-service
   ECS_TASK_DEFINITION: infrastructure/task-definition.json
