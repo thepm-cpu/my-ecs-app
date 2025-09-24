@@ -10,7 +10,7 @@ env:
   AWS_REGION: eu-north-1
   ECR_REPOSITORY: my-ecs-app
   ECS_SERVICE: my-app-service
-  ECS_CLUSTER: my-app-cluster
+  ECS_CLUSTER: my-ecs-cluster
   ECS_TASK_DEFINITION: infrastructure/task-definition.json
   CONTAINER_NAME: my-ecs-app
 
