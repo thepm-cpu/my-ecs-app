@@ -8,7 +8,7 @@ on:
 
 env:
   AWS_REGION: eu-north-1
-  ECR_REPOSITORY: my-ecr-app
+  ECR_REPOSITORY: my-ecs-app
   ECS_CLUSTER: my-ecs-cluster
   ECS_SERVICE: my-ecs-service
   ECS_TASK_DEFINITION: infrastructure/task-definition.json
